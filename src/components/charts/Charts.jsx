@@ -56,7 +56,7 @@ export function SectionCard({ title, subtitle, children, badge, source, sourceUr
               )}
               <h2 className="text-lg font-bold text-gray-800">{title}</h2>
             </div>
-            {subtitle && <p className="text-sm text-gray-500 max-w-2xl">{subtitle}</p>}
+            {subtitle && <p className="text text-gray-500 max-w-2xl">{subtitle}</p>}
           </div>
         </div>
         {source && (
@@ -220,7 +220,7 @@ export function InfoBox({ items, color = "blue" }) {
 // ── Formula Display ───────────────────────────────────────────────────────────
 export function FormulaBox({ formula, label }) {
   return (
-    <div className="my-3 rounded-lg bg-gray-900 text-gray-100 px-5 py-3 font-mono text-sm flex items-center gap-3">
+    <div className="my-3 rounded-lg bg-blue-100 text-black px-5 py-3 font-mono text flex items-center gap-3">
       {label && <span className="text-gray-400 text-xs shrink-0">{label}</span>}
       <span>{formula}</span>
     </div>

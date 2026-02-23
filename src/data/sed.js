@@ -29,7 +29,7 @@ export const sedInfo = {
   weight: "35% del IDE",
   formula: "SED = 0.6 × IDT + 0.4 × GD",
   ponderationJustification:
-    "60% IDT porque la digitalización no es solo infraestructura, es uso efectivo. 40% GD porque representa capacidad estructural habilitante.",
+    "60% IDT y 40% GD porquePuedes tener un sistema financiero muy desarrollado (alto GD), pero si la gente sigue pagando en efectivo (bajo IDT), no hay verdadera digitalización.",
 };
 
 export const gdInfo = {
@@ -63,11 +63,13 @@ export const idtInfo = {
     "Cajeros automáticos",
     "Corresponsales no bancarios",
     "Banca telefónica",
-    "Oficina / Ventanillas",
+    "Oficina",
+    "Ventanillas",
+    "Visitas",
     "Empresas auxiliares",
   ],
   exclusionReason:
     "Se excluyeron porque implican intervención física o retiro de efectivo, lo cual no refleja digitalización plena.",
   source: "Superintendencia de Bancos del Ecuador",
-  sourceUrl: "https://www.superbancos.gob.ec/estadisticas/portalestudios/serviciosfinancieros/",
+  sourceUrl: "https://www.superbancos.gob.ec/estadisticas/portalestudios/servicios-financieros/",
 };

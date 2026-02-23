@@ -61,14 +61,6 @@ export default function PredictionSection() {
       badge="Proyección OLS · 95% IC"
     >
       <div className="space-y-6">
-        {/* Disclaimer banner */}
-        <div className="rounded-xl bg-amber-50 border border-amber-300 px-5 py-4 flex gap-3 items-start">
-          <span className="text-xl">⚠️</span>
-          <div>
-            <p className="text-sm font-semibold text-amber-800 mb-1">Sección de proyecciones estadísticas</p>
-            <p className="text-xs text-amber-700">{predictionInfo.disclaimer}</p>
-          </div>
-        </div>
 
         {/* Method card */}
         <div className="rounded-xl border border-gray-200 p-5 bg-gray-50">

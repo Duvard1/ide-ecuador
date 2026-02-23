@@ -114,16 +114,6 @@ export default function IDESection() {
             highlightLast
           />
         </div>
-
-        {/* Methodological notes */}
-        <div>
-          <p className="text-sm font-semibold text-gray-700 mb-2">Principios metodológicos</p>
-          <InfoBox items={ideInfo.methodologicalPrinciples} color="blue" />
-        </div>
-        <div>
-          <p className="text-sm font-semibold text-gray-700 mb-2">Validaciones del modelo</p>
-          <InfoBox items={ideInfo.validations} color="green" />
-        </div>
       </div>
     </SectionCard>
   );

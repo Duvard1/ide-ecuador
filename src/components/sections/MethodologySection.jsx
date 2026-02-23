@@ -5,10 +5,10 @@ import { sedInfo, gdInfo, idtInfo } from "../../data/sed";
 import { SectionCard, FormulaBox, InfoBox } from "../charts/Charts";
 
 const SOURCE_LINKS = [
-  { label: "Naciones Unidas – EGDI", url: "https://publicadministration.un.org/egovkb/en-us/Data/CountryInformation/id/52-Ecuador/dataYear/2024" },
-  { label: "INEC – Encuesta TIC / Ecuador en Cifras", url: "https://www.ecuadorencifras.gob.ec/tecnologias-de-la-informacion-ycomunicacion-tic/" },
-  { label: "Banco Central del Ecuador – Pagos Interbancarios / PIB", url: "https://contenido.bce.fin.ec/documentos/informacioneconomica/indicadores/pagos/SPI_PIB.html" },
-  { label: "Superintendencia de Bancos – Servicios Financieros", url: "https://www.superbancos.gob.ec/estadisticas/portalestudios/serviciosfinancieros/" },
+  { label: "Naciones Unidas – EGDI", url: "https://publicadministration.un.org/egovkb/en-us/Data/Country-Information/id/52-Ecuador/dataYear/2024" },
+  { label: "INEC – Encuesta TIC / Ecuador en Cifras", url: "https://www.ecuadorencifras.gob.ec/tecnologias-de-la-informacion-y-comunicacion-tic/" },
+  { label: "Banco Central del Ecuador – Pagos Interbancarios / PIB", url: "https://contenido.bce.fin.ec/documentos/informacioneconomica/indicadores/pagos/SPI_PIB.html#:~:text=2022%2C%202023%2C%202024.%20Sistema%20de%20Pagos%20Interbancarios,%C3%A1mbito%20nacional%2C%20la%20transferencia%20electr%C3%B3nica%20de%20dinero" },
+  { label: "Superintendencia de Bancos – Servicios Financieros", url: "https://www.superbancos.gob.ec/estadisticas/portalestudios/servicios-financieros/" },
 ];
 
 const DIMENSIONS = [

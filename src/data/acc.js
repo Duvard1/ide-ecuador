@@ -11,7 +11,7 @@ export const accInfo = {
   description:
     "Mide la capacidad estructural de acceso digital de la población. Se construye como el promedio de seis variables que cubren equipamiento, conectividad y alfabetismo digital. El ACC refleja infraestructura y capacidad de acceso, pero no garantiza uso efectivo.",
   source: "INEC – Encuesta TIC / Ecuador en Cifras",
-  sourceUrl: "https://www.ecuadorencifras.gob.ec/tecnologias-de-la-informacion-ycomunicacion-tic/",
+  sourceUrl: "https://www.ecuadorencifras.gob.ec/tecnologias-de-la-informacion-y-comunicacion-tic/",
   weight: "25% del IDE",
   interpolatedYears: [2021],
   interpolationNote:
@@ -23,6 +23,6 @@ export const accInfo = {
     PUI: "Personas que Utilizan Internet – población de 5 años o más.",
     PCA: "Personas con Celular Activado.",
     PTI: "Personas con Smartphone (Teléfono Inteligente).",
-    AD: "Alfabetismo Digital – calculado como 100 menos el porcentaje de analfabetismo digital.",
+    AD: "Alfabetismo Digital – analfabeta digital es una persona de 15 a 49 años que: 1.- No tiene celular activado, 2.- No ha usado computadora en el ultimo año, 3.- No ha usado internet en el ultimo año",
   },
 };
