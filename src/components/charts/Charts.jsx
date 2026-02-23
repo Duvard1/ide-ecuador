@@ -59,6 +59,7 @@ export function SectionCard({ title, subtitle, children, badge, source, sourceUr
             {subtitle && <p className="text text-gray-500 max-w-2xl">{subtitle}</p>}
           </div>
         </div>
+        
         {source && (
           <p className="text-xs text-gray-400 mt-2">
             Fuente:{" "}
